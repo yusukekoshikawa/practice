@@ -14,7 +14,7 @@
                 <p class="clsTitle">やふぅ</p>
             </div>
             <div class="clsFlexChildren02">
-                <p class="clsLogin"><a href="login.php">ログイン</a></p>
+                <p class="clsLogin"><a href="login.php">Login</a></p>
             </div>
         </div>        
         <div class="clsFlexBoxA">
