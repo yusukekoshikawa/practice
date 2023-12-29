@@ -31,10 +31,10 @@
                 <div class="clsFlexBoxB">
                     <div class="clsFlexChildrenB1">
                         <div class="clsNewsTitle" id="clsNewsTitle">主要ニュース</div>
-                        <div style="text-align:right;"><button style="background-color:beige" onclick="showEditForm()">記事投稿</button></div>
+                        <div style="text-align:right;"><button style="background-color:beige">記事投稿</button></div>
                         <div width="500px" height="600px"><dialog id=editForm>
 
-                                <div style="text-align:right;"><button style="color:red" onclick="editForm.close()">×</button></div>
+                                <div style="text-align:right;"><button style="color:red">×</button></div>
                                 </br>
                                 <div style="text-align:center">新規記事投稿画面</div>
                                 </br>
@@ -46,7 +46,7 @@
                                     <div><lavel for="id">Contents:</lavel></div>
                                     <input type="text" id="contents" width="500px" height="500px">
                                 </div></br>
-                                <div style="text-align:right;"><button id="btnSend" onclick="setArticle();editForm.close();">投稿</button></div>
+                                <div style="text-align:right;"><button id="btnSend">投稿</button></div>
                         </dialog></div>                        
                         <ul id="articleList"></ul>
                     </div>
