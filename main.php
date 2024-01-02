@@ -46,7 +46,7 @@
                                     <div><lavel for="id">Contents:</lavel></div>
                                     <input type="text" id="contents" width="500px" height="500px">
                                 </div></br>
-                                <div style="text-align:right;"><button id="btnSend">投稿</button></div>
+                                <div style="text-align:right;"><button id="btnSend" onclick=senddata();>投稿</button></div>
                         </dialog></div>                        
                         <ul id="articleList"></ul>
                     </div>
@@ -55,3 +55,10 @@
         </div>
     </body>
 </html>
+<script>
+    function senddata(){
+
+        
+    }
+
+</script>
